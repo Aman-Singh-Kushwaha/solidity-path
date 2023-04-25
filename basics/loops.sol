@@ -4,7 +4,7 @@ pragma solidity ^0.8.10;
 contract forAndWhileLoops{   
     uint public i=0;
 // loops may be forcefully terminated transaction cost reaches gas limit
-    function loops() external ) {
+    function loops() external {
         uint a;
         for(uint j=0; j< 10; j++) {   //For loops
             if(j==3) continue;
